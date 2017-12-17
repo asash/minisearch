@@ -1,0 +1,8 @@
+__pycache__/
+queue_dumps/
+results/
+*.pyc
+logs/
+run/
+config.py
+.ipynb_checkpoints/

@@ -1,0 +1,21 @@
+#copy this as config.py and fill your AWS credentials
+AWS_ACCESS_KEY = ''
+AWS_SECRET_KEY = ''
+AWS_VPC = ''
+AWS_SUBNET_ID = ''
+AWS_KEY_NAME = ''
+AWS_QUEUE_BUCKET=''
+AWS_RESULTS_BUCKET = '' 
+AWS_REGION=''
+
+AWS_IMAGE_ID = 'ami-2d912554'
+MASTER_NODE_TYPE='m3.medium'
+WORKER_NODE_TYPE='m5.large'
+WORKER_NODES=5
+
+SSH_USERNAME = 'ec2-user'
+SSH_KEY =  '~/.ssh/id_rsa'
+
+QUEUE_DUMP_EVERY_OPS = 2000
+QUEUE_STATS_EVERY_SEC = 5 
+
